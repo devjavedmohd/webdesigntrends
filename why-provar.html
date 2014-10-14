@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Provar – Test Automation for Salesforce</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normal.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href=" css/customCss.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="http://vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+  <div class="fix-header" id="home">
+    <div class="w-container">
+      <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
+    </div>
+  </div>
+  <div class="fixed-header">
+    <div class="w-container container">
+      <div class="w-row">
+
+       <!--///////////////////////////////////////////////////////
+       // Logo section 
+       //////////////////////////////////////////////////////////-->
+
+
+        <div class="w-col w-col-3 logo">
+          <a href="#"><img class="logo" src="images/logo1.png" alt="Provar"></a>
+        </div>
+
+        <!--///////////////////////////////////////////////////////
+       // End Logo section 
+       //////////////////////////////////////////////////////////-->
+
+        <div class="w-col w-col-9 pull-right">
+
+       <!--///////////////////////////////////////////////////////
+       // Menu section 
+       //////////////////////////////////////////////////////////-->
+
+
+          <div class="w-nav navbar" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+            <div class="w-container nav">
+              <nav class="w-nav-menu nav-menu" role="navigation">
+                <a class="w-nav-link menu-li" href="index.html#video1">HOME</a>
+                <a class="w-nav-link menu-li" href="index.html#howItworks">HOW IT WORKS</a>
+                <a class="w-nav-link menu-li" href="why-provar.html">WHY PROVAR</a>
+                <a class="w-nav-link menu-li" href="client-login.html">CLIENT LOGIN</a>
+				        <a class="w-nav-link menu-li" href="index.html#customer">TESTIMONIALS</a>
+                <a class="w-nav-link menu-li" href="#contact">CONTACT</a>
+              </nav>
+
+              <div class="w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+              </div>
+            </div>
+          </div>
+
+
+        <!--///////////////////////////////////////////////////////
+        // End Menu section 
+        //////////////////////////////////////////////////////////-->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+            
+
+    <div class="exp service-parlex" id="whyProvar">
+    <div class="why-back">
+      <div class="w-container">
+        <!-- <div id="about-animation"> -->
+        <div>
+        
+        <div class="wrap">
+          <!--<div class="why-provar-bg">
+            <h1 class="why-provar-heading">Why Provar</h1>
+           </div>--> 	
+          <div class="w-row exp-des">
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="box2">
+                	<h3 class="box2">Create and execute tests quickly</h3>
+                    <p class="box2">For standard Salesforce screens each field, button and page needs to be mapped and maintained with each release. UI tests are notoriously difficult to maintain and very slow to execute. Alternatively it is possible to execute all the triggers, validation rules and custom logic for each of your objects using API tests. </p>
+                    
+                    <p class="box2">API tests include Create, Update, Delete to manipulate your Salesforce objects and Read to assert your results. The API are easier to maintain and quick to execute. Create your set-up (seed) data using API tests and only create UI tests where they are needed.</p>
+                </div>
+               </div>
+             </div>
+             <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="images/create-and-execute-tests.png">
+              </div>
+            </div>
+             
+           </div>
+          </div>           
+        </div>
+      </div>
+</div>
+</div>
+
+
+<div class="exp service-parlex" id="whyProvar">
+    <div class="why-back">
+      <div class="w-container">
+        <!-- <div id="about-animation"> -->
+        <div>
+        
+        <div class="wrap">	
+          <div class="w-row exp-des">
+           <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="images/tests-in-multiple-environments.png">
+              </div>
+            </div>
+           
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="box2">
+                	<h3 class="box2">Run tests in multiple environments and after refreshes</h3>
+                    <p class="box2">Automated tests need to work in all your test environments without needing updating when switching Org.  Adding field locators for your screens using Selenium is difficult as the Salesforce Ids differ between Orgs.  Provar will locate fields using the Metadata from your Org.</p>
+                </div>
+               </div>
+             </div>
+             
+           </div>
+          </div>          
+        
+        
+        
+        
+        
+        </div>
+      </div>
+</div>
+</div>
+
+<div class="exp service-parlex" id="whyProvar">
+    <div class="why-back">
+      <div class="w-container">
+        <!-- <div id="about-animation"> -->
+        <div>
+        
+        <div class="wrap">	
+          <div class="w-row exp-des">
+           
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="box2">
+                	<h3 class="box2">Test tricky Visualforce pages</h3>
+                    <p class="box2">Creating field locators reliably on a Visualforce page is difficult.  Salesforce will generate the Ids at runtime which means any change to your APEX code leads to the field locators needing constant maintenance.   Provar allows you to locate your fields based on our knowledge of the APEX source code in your Org.</p>
+                </div>
+               </div>
+             </div>
+             
+             <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="images/Test-Vf-pages.png">
+              </div>
+            </div>
+             
+           </div>
+          </div>          
+        
+        
+        
+        
+        
+        </div>
+      </div>
+</div>
+</div>
+
+<div class="exp service-parlex" id="whyProvar">
+    <div class="why-back">
+      <div class="w-container">
+        <!-- <div id="about-animation"> -->
+        <div>
+        
+        <div class="wrap">	
+          <div class="w-row exp-des">
+           <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="images/train-team.png">
+              </div>
+            </div>
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="box2">
+                	<h3 class="box2">Train your existing team</h3>
+                    <p class="box2">It is common with Salesforce projects to create an in-house framework based on the open source product Selenium. There are many hidden costs in this approach and it will require an investment in developers to create and maintain a framework.  An automated test engineer capable of creating a robust, scalable and re-usable framework is an expensive specialist skill and each new feature such as reporting, integrating with Continuous Integration, loading data from different sources, testing upstream/downstream applications needs to be developed. </p>
+                    <p class="box2">We can train your existing test team, developers or SFDC administrators to configure and execute tests using Provar. </p>
+                </div>
+               </div>
+             </div>
+             
+           </div>
+          </div>          
+        
+        
+        
+        
+        
+        </div>
+      </div>
+</div>
+</div>
+
+
+<div class="exp service-parlex" id="whyProvar">
+    <div class="why-back">
+      <div class="w-container">
+        <!-- <div id="about-animation"> -->
+        <div>
+        
+        <div class="wrap">	
+          <div class="w-row exp-des">
+           
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="box2">
+                	<h3 class="box2">Reduce your test maintenance</h3>
+                    <p class="box2">If left unchecked a custom framework can exceed the lines of code in your Salesforce implementation.  In order to test you will need to add the Salesforce objects, fields, picklists and report definitions in your test cases.  When the developers provide the next Iteration you need to update all these values.  Provar synchs with your Salesforce implementation.  You can create and validate your test cases without needing to duplicate Salesforce config in your tests. </p>
+                </div>
+               </div>
+             </div>
+             
+             <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="images/test-maintenance.png">
+              </div>
+            </div>
+             
+           </div>
+          </div>          
+        
+        
+        
+        
+        
+        </div>
+      </div>
+</div>
+</div>
+
+
+<div class="exp service-parlex" id="whyProvar">
+    <div class="why-back">
+      <div class="w-container">
+        <!-- <div id="about-animation"> -->
+        <div>
+        
+        <div class="wrap">	
+          <div class="w-row exp-des">
+           <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="images/automate.png">
+              </div>
+            </div>
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="box2">
+                	<h3 class="box2">Automate your Integration testing</h3>
+                    <p class="box2">As your automated testing becomes more mature there are great efficiencies to be gained at the system Integration test layer. Your automated testing needs to support asserting your neighbouring systems, inbound/outbound emails, databases, web services and messaging systems. Automation at this layer helps convince business users that their end to end scenarios are understood and executed before sign-off.  This is usually manual on Salesforce projects.</p>
+                </div>
+               </div>
+             </div>
+             
+           </div>
+          </div>          
+        
+        
+        
+        
+        
+        </div>
+      </div>
+</div>
+</div>
+
+
+
+
+
+<!--///////////////////////////////////////////////////////
+// Contact section 
+//////////////////////////////////////////////////////////-->
+
+  <div class="contact-parlex" id="contact">
+    <div class="parlex8-back">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="contact-div">
+            <h1 class="contact-heading">CONTACT</h1>
+            <div class="sepreater"></div>
+          </div>
+          <p class="contact-para">Thanks for taking the time to contact us!
+            </p>
+            <div class="center">
+          <iframe src="http://go.makepositive.com/l/29812/2014-10-09/23wrp" width="80%" height="800" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="w-container">
+        <div class="w-row contact-col">
+          <div class="w-col w-col-4 contact-col1">
+            <div>
+              <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+               <a href="#set-5" class="hi-icon hi-icon-earth">Partners</a>
+            </div>
+              <h4 class="contact-col-head">Visit Us</h4>
+            </div>
+            <div>
+              <div class="contact-col-text">129-131 Great Guildford Business Square 30 Great Guildford Street London SE1 0HS |</div>
+              </br>
+              <div class="contact-col-text">Unit 124, Vipul Agora Building Near Sahara Mall, M.G Road Gurgaon-122002 Haryana  </div>
+            </div>
+          </div>
+          <div class="w-col w-col-4 contact-col2">
+            <div>
+              <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+                <a href="#set-5" class="hi-icon hi-icon-mail">Partners</a>
+              </div>
+              <h4 class="contact-col-head">Mail us</h4>
+            </div>
+            <div>
+              <div class="contact-col-text"><a href="mailto:provarsales@makepositive.com">provarsales@makepositive.com</a></div>
+            </div>
+          </div>
+          <div class="w-col w-col-4 contact-col3">
+            <div>
+              <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+                 <a href="#set-5" class="hi-icon hi-icon-mobile">Partners</a>
+              </div>
+              <h4 class="contact-col-head">Call Us</h4>
+            </div>
+            <div>
+              <div class="contact-col-text-bar-last"><a href="tel:+4402079604197">P: +44 (0)20 7960 4197</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--///////////////////////////////////////////////////////
+       // End Contact section 
+       //////////////////////////////////////////////////////////-->
+
+<!--///////////////////////////////////////////////////////
+       // Footer section 
+       //////////////////////////////////////////////////////////-->  
+
+  <div class="footer-parlex">
+    <div class="parlex9-back">
+      <div class="w-container">
+        <div class="wrap">
+          <img class="footer-logo" src="images/logo2.png" alt="Provar">
+          <div class="footer-social">
+            <div class="fotter-social-wrap">
+              <a href="https://twitter.com/ProvarTesting"><img class="fotter-social" src="images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
+              <a href="https://plus.google.com/"><img class="fotter-social" src="images/social/Google-plus.png" alt="52dd26a55b54031d540005af_Google-plus.png"></a>
+              <a href="http://vimeo.com/108329305"><img class="fotter-social" src="images/social/Vimeo.png" alt="52de537cb6d2171f7800041c_Vimeo.png"></a>
+              <a href="https://www.youtube.com/watch?v=-fJ0XtsVco4#t=13"><img class="fotter-social" src="images/social/Youtube.png" alt="52de54495d3566c14300040a_Youtube.png"></a>
+            </div>
+          </div>
+          <div>
+              <p class="copyright-area"><a href="privacy-policy.html">Privacy & Cookies</a> Copyright ©2014 Provar.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <!--///////////////////////////////////////////////////////
+       // End Footer section 
+       //////////////////////////////////////////////////////////-->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/normal.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/carousels.js"></script>
+  <script type="text/javascript" src="js/slider-modernizr.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/portfolio-effects.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="js/modernizr.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="http://vjs.zencdn.net/4.9/video.js"></script>
+</body>
+</html>
